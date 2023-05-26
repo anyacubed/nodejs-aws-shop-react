@@ -1,5 +1,9 @@
 # React-shop-cloudfront
 
+Link to S3: http://nodejs-aws-shop-react-automated.s3-website-eu-west-1.amazonaws.com
+
+Link to CloudFront: https://d3om8esxn7ysac.cloudfront.net
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
@@ -24,6 +28,10 @@ Starts the project in dev mode with mocked API on local environment.
 ### `build`
 
 Builds the project for production in `dist` folder.
+
+### `deploy`
+
+Builds the project for production in `dist` folder and deploys it to CloudFront.
 
 ### `preview`
 

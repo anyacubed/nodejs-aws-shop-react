@@ -12,6 +12,12 @@
     "prettier"
   ],
   "plugins": ["@typescript-eslint", "react", "prettier"],
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
+  ],
   "env": {
     "browser": true,
     "node": true
